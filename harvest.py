@@ -132,4 +132,5 @@ def get_sellability_report(melons):
         print(f'{melon.harvester} {melon.field}')
 
 
-get_sellability_report(make_melons(make_melon_types()))
+if __name__ == '__main__':
+    get_sellability_report(make_melons(make_melon_types()))
